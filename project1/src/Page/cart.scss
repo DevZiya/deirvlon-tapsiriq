@@ -1,0 +1,176 @@
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    .title{
+        padding-left: 20vh;
+        font-size: 35px;
+    }
+
+    .cart{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .products{
+
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin: 30px 0;
+
+            .product{
+                display: flex;
+                align-items: center;
+                padding-bottom: 20px;
+                border-bottom: 1px solid grey;
+                gap: 40px;
+
+                .image{
+                    width: 87px;
+                    height: 87px;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .text{
+                    font-size: 14px;
+                    color: #4E4E4E;
+
+                    h4{
+                        font-size: 18px;
+                        color: black;
+                    }
+                }
+
+                .count{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 30px;
+                    border: 1px solid #A3A3A3;
+                    border-radius: 5px;
+                    padding: 3px 8px;
+
+                    .icon{
+                        cursor: pointer;
+                    }
+                }
+
+                .total{
+                    font-size: 18px;
+                    color: #00A651;
+                    font-weight: 600;
+                }
+
+            }
+        }
+
+        .total-ammount{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            height: 300px;
+            width: 410px;
+            border: 1px solid #A3A3A3;
+            border-radius: 10px;
+            padding: 20px 10px;
+
+            .inp{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                input{
+                    width: 85%;
+                    padding: 5px 10px;
+                    border: 1px solid #A3A3A3;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                }
+
+                .btn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 6px;
+                    border: 1px solid #A3A3A3;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                    cursor: pointer;
+
+                    .right{
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .coin{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .endirim{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+
+                .catdırılma{
+                    p{
+                        font-size: 14px;
+                    }
+                }
+
+                .toplam{
+                    p{
+                        font-size: 20px;
+                    }
+                }
+
+                .box{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    p{
+                        font-weight: 600;
+                    }
+
+                    span{
+                        color: #00A651;
+                    }
+                }
+            }
+
+            .button{
+                margin-top: 10px;
+                button{
+                    width: 100%;
+                    padding: 8px 0;
+                    background-color: #00A651;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+                    font-weight: 300;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+}
+            }
+        }
+    }
+    
+}
